@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "875944472763",
+    "firebase_url": "https://techupdates-30c5a-default-rtdb.firebaseio.com",
+    "project_id": "techupdates-30c5a",
+    "storage_bucket": "techupdates-30c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875944472763:android:1d39f500213777c693b99e",
+        "android_client_info": {
+          "package_name": "com.example.techupdates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875944472763-a4sc12thb901n8p9n0h08refrqhbepu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDNGqTDf6AAWH4sBHsDYZvAt_Z4a6VsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875944472763-a4sc12thb901n8p9n0h08refrqhbepu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

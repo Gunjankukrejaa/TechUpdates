@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3467"
+    tools:context=".adminlogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/textenter"
+        android:text="Enter Admin Id"
+        android:textSize = "40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/adminid"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/box" />
+
+    <EditText
+        android:id="@+id/adminidno"
+        android:layout_width="224dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="230dp"
+        android:hint="Enter ID"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/adlogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:text="Proceed"
+        android:textSize="30dp"
+        android:background="#FCFFE7"/>
+
+
+
+</RelativeLayout>

@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".business">
+    tools:context=".business"
+    android:background="#BAD7E9">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Business" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/headline"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:background="#FCFFE7"
+                android:text="@string/business_headline"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/text"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="190dp"
+                android:background="#FCFFE7"
+                android:text="@string/business_content"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text to Speech"
+                android:layout_below="@+id/text"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#2B3467"
+                android:textColor="@color/white"
+                android:layout_marginBottom="50dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

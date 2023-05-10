@@ -14,40 +14,45 @@
            android:layout_width="match_parent"
            android:layout_height="match_parent">
 
-           <Button
-               android:id="@+id/getnews"
-               android:layout_width="190dp"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:layout_marginTop="20dp"
-               android:background="#2B3467"
-               android:text="Get Latest News"
-               android:textColor="@color/white"
-               android:textSize="20dp" />
 
-           <TextView
+           <EditText
                android:id="@+id/headline"
                android:layout_width="350dp"
                android:layout_height="wrap_content"
                android:layout_centerHorizontal="true"
                android:layout_marginLeft="30dp"
-               android:layout_marginTop="110dp"
+               android:layout_marginTop="50dp"
                android:background="#FCFFE7"
+               android:text="@string/itsec_headline"
                android:textColor="@color/black"
                android:textSize="25dp"
                android:textStyle="bold" />
 
-           <TextView
+           <EditText
                android:id="@+id/text"
                android:layout_width="350dp"
                android:layout_height="wrap_content"
                android:layout_centerHorizontal="true"
                android:layout_marginLeft="30dp"
-               android:layout_marginTop="250dp"
+               android:layout_marginTop="190dp"
                android:background="#FCFFE7"
+               android:text="@string/itsec_content"
                android:textColor="@color/black"
                android:textSize="25dp"
                android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/tts"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Text to Speech"
+               android:layout_below="@+id/text"
+               android:layout_marginTop="50dp"
+               android:layout_centerHorizontal="true"
+               android:background="#2B3467"
+               android:textColor="@color/white"
+               android:layout_marginBottom="50dp"/>
+
 
        </RelativeLayout>
 
